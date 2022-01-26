@@ -11,7 +11,7 @@ for i in range(1,8):
 print("\n**********************************************************")
 
 # else in for loop
-item = [1,2,3,4,5]
+item = [1, 2, 3, 4, 5]
 for i in item:
     print(i, end = " ")
 else:

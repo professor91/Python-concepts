@@ -8,7 +8,7 @@ print(type(a))      # int
 
 print("")
 
-b = 2.5
+b = 2.0
 print(b)
 print(type(b))      # float
 
