@@ -1,0 +1,66 @@
+#---------------------# List #--------------------#
+# a list is a list of items
+# elements can be added to, deleted from, updated in a list
+# lists are indexable
+# useful when need to save lot of values but don't want to create multiple variables for each
+
+# methods on lists
+
+# list_name[index]                  to access the item at the index
+# list_name[-1]                     refers to the last item
+# list_name[2:]                     return item from 2nd index (starts from 0)
+# list_name[:4]                     return item until 3rd index (starts from 0)
+# list_name[index]= values          to update the value at the given index to val
+
+# list_name.append(item)            to add an item to the last of the list
+# list_name.insert(index, item)     to add the item at (index-1)th index
+# list_name.extend(another_list)    add another list/tuple/set/dictionary to the list
+
+# list_name.remove(item)            remote item from the list
+# list_name.pop(index)              removes the item at the (index-1)th place   |   if not index provided then removes last item
+# del list_name[index]              deletes the item at the (index-1)th index
+# list_name.clear()                 empties the list
+# del list_name                     deletes the list completely
+
+# list comprehension
+[print(x) for x in thislist]
+
+# list_name.sort(reverse= bool_val) if reverse= True then sorts in descending otherwise ascending
+# list_name.reverse()               reverses the list
+# somelist= list_name.copy()        copies list_name to somelist
+
+# list_name.count()	                returns the number of elements with the specified value
+# list_name.index()	                returns the index of the first element with the specified value
+
+#---------------------# Set #---------------------#
+# a set keeps only distinct values and ignores the duplicates
+# once initialized values cannot be mutated in a set
+# set is not indexable
+# operations seach as searching are faster in sets that lists and tuples
+# useful when need only unique values from a list and drop the duplicates
+
+# methods of sets
+
+# add()                             add unique element to the set
+# clear()                           deletes all elements from the set and makes it empty set
+# copy()                            returns copy of the set
+
+# difference()                      returns difference of two sets
+# difference_update()               updates the former set to difference of two sets
+
+# remove()                          removes the specified element
+# discard()                         removes an element from the set and if it is not present continues forward
+# pop()                             removes last element from the set
+
+# union()                           returns union of sets
+# intersection()                    returns intersection of 2 sets
+# intersection_update()             updates the former set to intersection of two sets
+# isdisjoint()                      returns whether two sets have a intersection or not
+
+# issubset()                        returns whether another set contains this set or not
+# issuperset()                      returns whether this set contains another set or not
+
+# symmetric_difference()            returns a set with the symmetric differences of two sets
+# symmetric_difference_update()     inserts the symmetric differences from this set and another
+
+# update()                          updates the former set with the union of this set and others

@@ -35,19 +35,28 @@ print("")
 
 # immutable & mutable
 
+# tuple
 # observe end
-e = (1, "string", 2)
-print(e)
-for i in e:
-    print(e, end= "-")
+t = (1, "string", 2)
+print(t)
+for i in t:
+    print(i, end= " ")
 print("")
-print(type(e))      # tuple
+print(type(t))
 
 print("")
 
-f = [1,2,3]
-print(f)
-for i in f:
-    print(i, end= "-")
+# list
+l = [1,2,3]
+print(l)
+for i in l:
+    print(i, end= " ")
 print("")
-print(type(f))      # list
+print(type(f))
+
+# set
+s= {12, "Hello", 45.6, True}
+for i in s:
+    print(i, end=" ")
+print("")
+print(type(t))
