@@ -32,6 +32,35 @@
 # list_name.count()	                returns the number of elements with the specified value
 # list_name.index()	                returns the index of the first element with the specified value
 
+
+
+#-------------------# Tuples #--------------------#
+
+indexing same as lists
+
+append and update as list
+
+unpacking tuples
+
+fruits = ("apple", "banana", "cherry")
+
+(green, yellow, red) = fruits
+
+print(green)
+print(yellow)
+print(red)
+
+
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+
+(green, yellow, *red) = fruits
+
+print(green)
+print(yellow)
+print(red)
+
+
+
 #---------------------# Set #---------------------#
 # a set keeps only distinct values and ignores the duplicates
 # once initialized values cannot be mutated in a set
